@@ -1,18 +1,18 @@
-const CACHE_NAME = 'skincare-v3';
+const CACHE_NAME = 'skincare-v4';
 const ASSETS = [
-  '/index.html',
-  '/css/app.css',
-  '/js/db.js',
-  '/js/settings.js',
-  '/js/app.js',
-  '/js/home.js',
-  '/js/streaks.js',
-  '/js/products.js',
-  '/js/journal.js',
-  '/js/schedule.js',
-  '/manifest.json',
-  '/icons/icon-192.svg',
-  '/icons/icon-512.svg'
+  './index.html',
+  './css/app.css',
+  './js/db.js',
+  './js/settings.js',
+  './js/app.js',
+  './js/home.js',
+  './js/streaks.js',
+  './js/products.js',
+  './js/journal.js',
+  './js/schedule.js',
+  './manifest.json',
+  './icons/icon-192.svg',
+  './icons/icon-512.svg'
 ];
 
 self.addEventListener('install', e => {
