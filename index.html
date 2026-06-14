@@ -27,6 +27,12 @@
     <header class="top-bar">
       <h1 id="top-bar-title">Skincare</h1>
       <div class="date-chip" id="top-date"></div>
+      <button onclick="AppSettings.open()" aria-label="Settings"
+        style="background:none;border:none;cursor:pointer;padding:6px;
+          color:var(--md-sys-color-on-surface-variant);display:flex;align-items:center;
+          border-radius:var(--md-sys-shape-corner-full);-webkit-tap-highlight-color:transparent;">
+        <span class="material-symbols-rounded" style="font-size:22px;">settings</span>
+      </button>
     </header>
 
     <!-- Screens -->
@@ -80,6 +86,7 @@
 
   <!-- Load order: db → screens → router -->
   <script src="js/db.js"></script>
+  <script src="js/settings.js"></script>
   <script src="js/home.js"></script>
   <script src="js/streaks.js"></script>
   <script src="js/products.js"></script>

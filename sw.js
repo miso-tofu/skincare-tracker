@@ -1,8 +1,9 @@
-const CACHE_NAME = 'skincare-v2';
+const CACHE_NAME = 'skincare-v3';
 const ASSETS = [
   '/index.html',
   '/css/app.css',
   '/js/db.js',
+  '/js/settings.js',
   '/js/app.js',
   '/js/home.js',
   '/js/streaks.js',
